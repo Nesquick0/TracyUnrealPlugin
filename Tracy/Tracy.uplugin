@@ -1,0 +1,25 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Tracy",
+	"Description": "Tracy Profiler",
+	"Category": "Performance",
+	"CreatedBy": "",
+	"CreatedByURL": "https://github.com/wolfpld/tracy",
+	"DocsURL": "https://github.com/wolfpld/tracy/releases/latest/download/tracy.pdf",
+	"MarketplaceURL": "",
+	"SupportURL": "https://github.com/wolfpld/tracy/issues",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "Tracy",
+			"Type": "DeveloperTool",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": ["Win64"]
+		}
+	]
+}
