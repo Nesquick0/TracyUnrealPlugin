@@ -22,8 +22,8 @@ public class Tracy : ModuleRules
 
 		PublicDefinitions.Add("TRACY_EXPORTS=1");
 		PublicDefinitions.Add("TRACY_ON_DEMAND=1");
-		PublicDefinitions.Add("TRACY_NO_CALLSTACK=1");
-		//PublicDefinitions.Add("TRACY_CALLSTACK=10");
+		//PublicDefinitions.Add("TRACY_NO_CALLSTACK=1");
+		PublicDefinitions.Add("TRACY_CALLSTACK=1");
 
 		PublicDependencyModuleNames.AddRange(
 			new string[]

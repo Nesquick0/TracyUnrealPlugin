@@ -16,11 +16,7 @@ Run game/editor with **`-tracy`** cmd parameter.
 * Clone repository and copy Tracy folder in your unreal project's Plugins.
 * In Tracy/Source/Tracy/Tracy.Build.cs you can modify tracy macros (TRACY_ON_DEMAND, TRACY_NO_CALLSTACK, TRACY_CALLSTACK)
 * Copy files necessary from Tracy profiler into Tracy/Source/TracyLib
-    * Create folder Tracy inside TracyLib (so you would have Tracy/Source/TracyLib/Tracy)
-    * From your clone of Tracy profiler copy to TracyLib/Tracy:
-        * folders - `client, common, libbacktrace`
-        * files (all .h and .hpp from root) - `Tracy.hpp, TracyC.h, TracyClient.cpp, TracyD3D11.hpp, TracyD3D12.hpp, TracyLua.hpp, TracyOpenCL.hpp, TracyOpenGL.hpp, TracyVulkan.hpp`
-        * It might be fine to copy more because unreal shouldn't compile TracyLib module.
+    * From your clone of Tracy profiler copy `public` folder into Tracy/Source/TracyLib:
     * There might be some fixes necessary in Tracy files:
 ```diff
 # client/TracyProfiler.cpp

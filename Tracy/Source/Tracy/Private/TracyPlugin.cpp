@@ -1,8 +1,8 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
 #include "TracyPlugin.h"
-#include "Tracy.hpp"
-#include "TracyC.h"
+#include "tracy/Tracy.hpp"
+#include "tracy/TracyC.h"
 
 #include "ProfilingDebugging/ExternalProfiler.h"
 #include "Features/IModularFeatures.h"
